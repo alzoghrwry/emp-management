@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    
+ <section class="employee-head">
+
+ </section>
+ <section class="employee-form">
+    
+ </section>
+ <section class="employee-list">
+            <div class="section-header">
+                <h2>Employee list</h2>
+                <div class="counters">
+                    <span id="activeCount">active  employee</span>
+                    <button id="toggleTrash" class="btn"> show employeed eleted <span id="trashCount">0</span></button>
+                </div>
+            </div>
+            
+            <table id="employeeTable">
+                <thead>
+                    <tr>
+                         <th>Name</th>
+                        <th>Role</th>
+                        <th>Status</th>
+                        <th>Option</th>
+                    </tr>
+                </thead>
+                <tbody id="employeeTableBody">
+                  
+                </tbody>
+            </table>
+        </section>
+   
+   
+    <section class="trash-list hidden" id="trashSection">
+            <h2> recycle Bin</h2>
+            <table id="trashTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Role</th>
+                        <th>Status</th>
+                        <th>Option</th>
+                    </tr>
+                </thead>
+                <tbody id="trashTableBody">
+                
+                </tbody>
+            </table>
+        </section>
+       
+        <script src="main.js"></script>
+
+</body>
+</html>
