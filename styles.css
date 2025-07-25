@@ -1,0 +1,145 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px 0;
+    background-color: #2c3e50;
+    color: white;
+    border-radius: 5px;
+}
+
+    
+.emp_form{
+    max-width: 1200px;
+    margin: 0 auto;
+
+   display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: self-start;
+    row-gap: 20px;
+    width: 100%;
+    height: auto;
+    border: 1px;
+    border-radius: 8px;
+    background: #f1f1f1;
+    padding: 20px;
+}
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.emp_form input:focus{
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 250, 219, 0.2);
+}
+
+.dropdown-status
+{
+    height: 40px;
+    margin-left: 15px;
+    border-radius: 15px;
+    width: 100%;
+   
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.addBtn{
+    background-color: #018fee;
+    color: #FFF;
+    padding: 14px;
+    width: auto;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 7px 8px rgba(52, 152, 219, 0.2);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+.status-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.status-active {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.status-on-leave {
+    background-color: #f39c12;
+    color: white;
+}
+
+.status-terminated {
+    background-color: #e74c3c;
+    color: white;
+}
+
+
+.trash-list {
+    margin-top: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.counters {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
